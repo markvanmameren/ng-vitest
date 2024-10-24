@@ -1,20 +1,15 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`SomeComponent > should create the app 1`] = `
+exports[`SomeComponent > should match snapshot 1`] = `
 <div
-  _nghost-a-c145517223=""
-  id="root0"
+  _nghost-a-c3546998181=""
+  id="root1"
   ng-version="18.2.9"
 >
   <h1
-    _ngcontent-a-c145517223=""
+    _ngcontent-a-c3546998181=""
   >
     Some header
   </h1>
-  <p
-    _ngcontent-a-c145517223=""
-  >
-    Some content
-  </p>
 </div>
 `;

@@ -22,4 +22,8 @@ describe('SomeComponent', () => {
 
     expect(headerText).toBe('Some header');
   });
+
+  it('should match snapshot', () => {
+    expect(fixture.nativeElement).toMatchSnapshot();
+  });
 });
